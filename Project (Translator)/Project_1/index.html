@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>Translator</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <nav>
+    <div class="logo">TRANSLATOR</div>
+    <div class = "nav-items">
+      <a href="/">Home</a>
+      <a href="/">About</a>
+      <a href="/">Contact</a>
+    </div>
+  </nav>
+
+<div class="wrap">
+	<div class="child">
+		<label for="input"><strong>Input:</strong></label>
+        <input id="input" name="input" type="input">
+	</div>
+	<div class="child">
+		<label for="output"><strong>Output:</strong></label>
+        <input id="output" name="output" type="text">
+	</div>
+</div>
+
+<div class="wrap">
+	<div class="child">
+		<label for="languagecode"><strong>Language Code:</strong></label>
+        <input id="languagecode" name="languagecode" type="languagecode">
+	</div>
+	<div class="child">
+		<button type="button" id="translate">Translate Text</button>
+	</div>
+</div>
+
+<div class="wrap">
+	<div class="child">
+		<h4>To find the language you want to translate to, head to: <a href="https://developers.google.com/admin-sdk/directory/v1/languages" target="_blank">Language Codes</a></h4>
+	</div>
+</div>
+
+  <footer class="footer">
+    <div class="footerContainer">
+        <p class="copyright">© Yusuf Adam 2022</p>
+    </div>
+</footer>
+  <script src="script.js"></script>
+</body>
+
+</html>

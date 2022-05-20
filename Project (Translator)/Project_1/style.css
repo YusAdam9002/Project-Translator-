@@ -1,0 +1,94 @@
+body {
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+  margin:0;
+  padding:0;
+  font-family: sans-serif;
+  background:#fac4c0;
+}
+
+
+.footer {
+  position: fixed;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: red;
+  color: white;
+  text-align: left;
+}
+
+.wrap {
+    padding: 5%;
+    text-align: center;
+    width: 80%;  
+}
+
+.child {
+     display: inline-block;    
+     padding: 2%;   
+}
+
+nav {
+  height:80px;
+  display:flex;
+  justify-content: space-between;
+  align-items:center;
+  padding: 0rem calc((100vw-1300px)/2);
+  background-color: orange;
+}
+
+.logo {
+  color:#000;
+  font-size:1.5rem;
+  font-weight:bold;
+  font-style:italic;;
+  padding: 0 2rem;
+}
+
+nav a{
+  text-decoration:none;
+  color:#000;
+  padding:0 1.5rem;
+  font-weight:bold;
+}
+
+nav a:hover{
+color:#fff;
+}
+
+.two-col {
+  overflow: hidden;/* Makes this div contain its floats */
+}
+
+.two-col .col1,
+.two-col .col2 {
+  width: 49%;
+}
+
+.two-col .col1 {
+  float: left;
+}
+
+.two-col .col2 {
+  float: right;
+}
+
+.two-col label {
+  display: block;
+}
+
+footer.footer {
+  
+  position:fixed;
+  margin-top:50px;
+  width: 100%;
+  background-color: #333333;
+}
+
+p.copyright {
+  color: #fff;
+  line-height: 40px;
+  font-size: 0.7em;
+}
